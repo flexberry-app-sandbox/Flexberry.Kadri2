@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kadri.Objects", "Objects/Kadri.Objects.csproj", "d0274312-3512-44e6-bfb3-7a3c19ab031c"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kadri.Tests", "Tests/Kadri.Tests.csproj", "f404f9b0-41f7-4d7c-92b5-ef14ea7fcb27"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kadri.ODataBackend", "ODataBackend/Kadri.ODataBackend.csproj", "fb7d9ea8-9cc5-4e18-a35a-8b7e01a0dbe3"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kadri.IntegrationTests", "IntegrationTests/Kadri.IntegrationTests.csproj", "ee28fbea-0242-4e25-8d7d-e21224b4f4b3"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		d0274312-3512-44e6-bfb3-7a3c19ab031c.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		d0274312-3512-44e6-bfb3-7a3c19ab031c.Debug|Any CPU.Build.0 = Debug|Any CPU
+		d0274312-3512-44e6-bfb3-7a3c19ab031c.Release|Any CPU.ActiveCfg = Release|Any CPU
+		d0274312-3512-44e6-bfb3-7a3c19ab031c.Release|Any CPU.Build.0 = Release|Any CPU
+		f404f9b0-41f7-4d7c-92b5-ef14ea7fcb27.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		f404f9b0-41f7-4d7c-92b5-ef14ea7fcb27.Debug|Any CPU.Build.0 = Debug|Any CPU
+		f404f9b0-41f7-4d7c-92b5-ef14ea7fcb27.Release|Any CPU.ActiveCfg = Release|Any CPU
+		f404f9b0-41f7-4d7c-92b5-ef14ea7fcb27.Release|Any CPU.Build.0 = Release|Any CPU
+		fb7d9ea8-9cc5-4e18-a35a-8b7e01a0dbe3.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		fb7d9ea8-9cc5-4e18-a35a-8b7e01a0dbe3.Debug|Any CPU.Build.0 = Debug|Any CPU
+		fb7d9ea8-9cc5-4e18-a35a-8b7e01a0dbe3.Release|Any CPU.ActiveCfg = Release|Any CPU
+		fb7d9ea8-9cc5-4e18-a35a-8b7e01a0dbe3.Release|Any CPU.Build.0 = Release|Any CPU
+		ee28fbea-0242-4e25-8d7d-e21224b4f4b3.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		ee28fbea-0242-4e25-8d7d-e21224b4f4b3.Debug|Any CPU.Build.0 = Debug|Any CPU
+		ee28fbea-0242-4e25-8d7d-e21224b4f4b3.Release|Any CPU.ActiveCfg = Release|Any CPU
+		ee28fbea-0242-4e25-8d7d-e21224b4f4b3.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
