@@ -9,6 +9,7 @@ moduleForModel('i-i-s-kadri-контроль-т-з', 'Unit | Model | i-i-s-kadri
     'model:i-i-s-kadri-отделы',
     'model:i-i-s-kadri-проверяемые',
     'model:i-i-s-kadri-сотрудники',
+    'model:контроль-трудового-законодательства',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

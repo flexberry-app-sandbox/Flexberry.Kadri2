@@ -1,9 +1,9 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-kadri-проверяемые', 'Unit | Serializer | i-i-s-kadri-проверяемые', {
+moduleForModel('контроль-трудового-законодательства', 'Unit | Serializer | контроль-трудового-законодательства', {
   // Specify the other units that are required for this test.
   needs: [
-    'serializer:i-i-s-kadri-проверяемые',
+    'serializer:контроль-трудового-законодательства',
     'service:syncer',
     'transform:file',
     'transform:decimal',

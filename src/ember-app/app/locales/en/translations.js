@@ -17,6 +17,7 @@ import IISKadriКонтроль_ТЗModel from './models/i-i-s-kadri-контр�
 import IISKadriОтделыModel from './models/i-i-s-kadri-отделы';
 import IISKadriПроверяемыеModel from './models/i-i-s-kadri-проверяемые';
 import IISKadriСотрудникиModel from './models/i-i-s-kadri-сотрудники';
+import Контроль трудового законодательстваModel from './models/контроль-трудового-законодательства';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -28,7 +29,8 @@ $.extend(true, translations, {
     'i-i-s-kadri-контроль-т-з': IISKadriКонтроль_ТЗModel,
     'i-i-s-kadri-отделы': IISKadriОтделыModel,
     'i-i-s-kadri-проверяемые': IISKadriПроверяемыеModel,
-    'i-i-s-kadri-сотрудники': IISKadriСотрудникиModel
+    'i-i-s-kadri-сотрудники': IISKadriСотрудникиModel,
+    'контроль-трудового-законодательства': Контроль трудового законодательстваModel
   },
 
   'application-name': 'Kadri',

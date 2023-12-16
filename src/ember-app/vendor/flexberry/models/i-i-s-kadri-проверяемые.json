@@ -28,7 +28,7 @@
       "polymorphic": false,
       "presence": true,
       "name": "контроль_ТЗ",
-      "relatedTo": "i-i-s-kadri-контроль-т-з",
+      "relatedTo": "контроль-трудового-законодательства",
       "inverse": "проверяемые"
     }
   ],

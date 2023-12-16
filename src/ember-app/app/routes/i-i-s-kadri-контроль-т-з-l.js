@@ -15,9 +15,9 @@ export default ListFormRoute.extend({
 
     @property modelName
     @type String
-    @default 'i-i-s-kadri-контроль-т-з'
+    @default 'контроль-трудового-законодательства'
   */
-  modelName: 'i-i-s-kadri-контроль-т-з',
+  modelName: 'контроль-трудового-законодательства',
 
   /**
     Defined user settings developer.

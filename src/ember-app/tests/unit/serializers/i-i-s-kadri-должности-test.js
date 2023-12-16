@@ -15,6 +15,7 @@ moduleForModel('i-i-s-kadri-должности', 'Unit | Serializer | i-i-s-kadr
     'model:i-i-s-kadri-отделы',
     'model:i-i-s-kadri-проверяемые',
     'model:i-i-s-kadri-сотрудники',
+    'model:контроль-трудового-законодательства',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

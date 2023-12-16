@@ -26,8 +26,8 @@ namespace IIS.Kadri
     // *** Start programmer edit section *** (Контроль_ТЗ CustomAttributes)
 
     // *** End programmer edit section *** (Контроль_ТЗ CustomAttributes)
+    [PublishName("Контроль трудового законодательства")]
     [AutoAltered()]
-    [Caption("Контроль_ ТЗ")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("Контроль_ТЗE", new string[] {
             "ID as \'ID\'",
