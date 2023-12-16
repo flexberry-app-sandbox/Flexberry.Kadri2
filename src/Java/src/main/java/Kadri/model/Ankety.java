@@ -28,11 +28,11 @@ public class Ankety {
     @Column(name = "ФИО")
     private String фио;
 
-    @Column(name = "Контакты")
-    private String контакты;
-
     @Column(name = "Образование")
     private String образование;
+
+    @Column(name = "Контакты")
+    private String контакты;
 
     @Column(name = "Опыт_работы")
     private String опыт_работы;
@@ -79,20 +79,20 @@ public class Ankety {
       this.фио = фио;
     }
 
-    public String getКонтакты() {
-      return контакты;
-    }
-
-    public void setКонтакты(String контакты) {
-      this.контакты = контакты;
-    }
-
     public String getОбразование() {
       return образование;
     }
 
     public void setОбразование(String образование) {
       this.образование = образование;
+    }
+
+    public String getКонтакты() {
+      return контакты;
+    }
+
+    public void setКонтакты(String контакты) {
+      this.контакты = контакты;
     }
 
     public String getОпыт_работы() {

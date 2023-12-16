@@ -58,7 +58,7 @@ CREATE TABLE [Анкеты] (
 
 	 [Контакты] VARCHAR(255)  NOT NULL,
 
-	 [ЛК] VARCHAR(255)  NOT NULL,
+	 [ЛК] VARCHAR(255)  NULL,
 
 	 [Образование] VARCHAR(255)  NOT NULL,
 

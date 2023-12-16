@@ -37,10 +37,10 @@ CREATE TABLE Анкеты (
  primaryKey UUID NOT NULL,
  ID INT NOT NULL,
  ФИО VARCHAR(255) NOT NULL,
- Контакты VARCHAR(255) NOT NULL,
  Образование VARCHAR(255) NOT NULL,
+ Контакты VARCHAR(255) NOT NULL,
  Опыт_работы VARCHAR(255) NOT NULL,
- ЛК VARCHAR(255) NOT NULL,
+ ЛК VARCHAR(255) NULL,
  Вакансия UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
@@ -49,8 +49,8 @@ CREATE TABLE Сотрудники (
  primaryKey UUID NOT NULL,
  ID INT NULL,
  ФИО VARCHAR(255) NULL,
- Контакты VARCHAR(255) NULL,
  Образование VARCHAR(255) NULL,
+ Контакты VARCHAR(255) NULL,
  Опыт_работы VARCHAR(255) NULL,
  Дата_приема TIMESTAMP(3) NULL,
  Отдел UUID NOT NULL,

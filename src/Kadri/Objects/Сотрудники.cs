@@ -59,9 +59,9 @@ namespace IIS.Kadri
         
         private string fФИО;
         
-        private string fКонтакты;
-        
         private string fОбразование;
+        
+        private string fКонтакты;
         
         private string fОпыт_работы;
         

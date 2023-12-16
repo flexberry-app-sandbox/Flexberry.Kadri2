@@ -67,13 +67,13 @@ CREATE TABLE "Анкеты"
 
 	"ФИО" NVARCHAR2(255) NOT NULL,
 
-	"Контакты" NVARCHAR2(255) NOT NULL,
-
 	"Образование" NVARCHAR2(255) NOT NULL,
+
+	"Контакты" NVARCHAR2(255) NOT NULL,
 
 	"Опыт_работы" NVARCHAR2(255) NOT NULL,
 
-	"ЛК" NVARCHAR2(255) NOT NULL,
+	"ЛК" NVARCHAR2(255) NULL,
 
 	"Вакансия" RAW(16) NOT NULL,
 
@@ -90,9 +90,9 @@ CREATE TABLE "Сотрудники"
 
 	"ФИО" NVARCHAR2(255) NULL,
 
-	"Контакты" NVARCHAR2(255) NULL,
-
 	"Образование" NVARCHAR2(255) NULL,
+
+	"Контакты" NVARCHAR2(255) NULL,
 
 	"Опыт_работы" NVARCHAR2(255) NULL,
 

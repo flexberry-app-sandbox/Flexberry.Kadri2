@@ -28,7 +28,7 @@
       "name": "лК",
       "type": "string",
       "flexberryType": "string",
-      "notNull": true,
+      "notNull": false,
       "defaultValue": "",
       "stored": true,
       "ordered": false

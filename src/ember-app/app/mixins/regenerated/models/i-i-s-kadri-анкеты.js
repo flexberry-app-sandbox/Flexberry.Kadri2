@@ -33,7 +33,6 @@ export let ValidationRules = {
     descriptionKey: 'models.i-i-s-kadri-анкеты.validations.лК.__caption__',
     validators: [
       validator('ds-error'),
-      validator('presence', true),
     ],
   },
   образование: {

@@ -54,9 +54,9 @@ namespace IIS.Kadri
         
         private string fФИО;
         
-        private string fКонтакты;
-        
         private string fОбразование;
+        
+        private string fКонтакты;
         
         private string fОпыт_работы;
         
@@ -141,7 +141,6 @@ namespace IIS.Kadri
 
         // *** End programmer edit section *** (Анкеты.ЛК CustomAttributes)
         [StrLen(255)]
-        [NotNull()]
         public virtual string ЛК
         {
             get
